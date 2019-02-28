@@ -39,7 +39,9 @@
             </@>
         </#if>
     </section>
-    <#include "${full_templates_path}/footer.ftl" />
+    <#if !is_signed_in>
+        <#include "${full_templates_path}/footer.ftl" />
+    </#if>
 </div>
 <!-- Show Header is signed out -->
 <#if !is_signed_in>
