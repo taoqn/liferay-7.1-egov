@@ -1,0 +1,142 @@
+/*=========================== Top ===========================*/
+
+.div_header_top {
+    padding-left: 30px;
+    height: 40px;
+    background: inherit;
+    background-color: #199ed8;
+    font-size: 12px;
+    color: #fff;
+}
+
+.div_header_top > div {
+    margin-left: 65px;
+}
+
+.div_header_top > div > div {
+    width: 100%;
+    padding-top: 4px;
+}
+
+/*=========================== Bottom ===========================*/
+
+.div_header_bottom {
+    background-color: #d5e8f9;
+}
+
+.div_header_bottom > div > div:first-child {
+    margin-left: 70px;
+}
+
+.header_bottom_content {
+    display: inline-flex;
+}
+
+.header_bottom_content > div {
+    display: inline-flex;
+}
+
+.header_bottom_content > div > div {
+    animation-name: scrollTop-Title-Up;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: scrollTop-Title-Up;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: scrollTop-Title-Up;
+    -moz-animation-duration: 0.2s;
+    -moz-animation-fill-mode: forwards;
+}
+
+@keyframes scrollTop-Title-Up { 0% {padding: 0px;} 100% {padding: 8px;} }
+@-webkit-keyframes scrollTop-Title-Up { 0% {padding: 0px;} 100% {padding: 8px;} }
+@-moz-keyframes scrollTop-Title-Up { 0% {padding: 0px;} 100% {padding: 8px;} }
+
+.header_bottom_site {
+    width: 400px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color: #e7851c;
+    line-height: 30px;
+}
+
+.header_bottom_sub {
+    font-style: italic;
+    font-size: 14px;
+    color: #333333;
+}
+
+.main_nav {
+    margin-left: 10px;
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+}
+
+.main_nav ul li.active a {
+    color: #199ed8;
+}
+
+.main_nav ul li a {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.main_nav ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+/*=========================== Event ScropDown ===========================*/
+
+.div_header_scroll {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div_header_scroll #header_top {
+    border-bottom: 1px solid #ccc;
+}
+
+.div_header_scroll #header_top > div {
+    padding-left: 40px;
+}
+
+.div_header_scroll #header_bottom {
+    background: rgba(25, 158, 216, 0.90);
+}
+
+.div_header_scroll #header_bottom > div > div:first-child {
+    margin-left: 90px;
+}
+
+.div_header_scroll #logo_index{
+    display: none;
+}
+
+.div_header_scroll #title-name{
+    animation-name: scrollTop-Title-Down;
+    animation-duration: 0.2s;
+    -webkit-animation-name: scrollTop-Title-Down;
+    -webkit-animation-duration: 0.2s;
+    -moz-animation-name: scrollTop-Title-Down;
+    -moz-animation-duration: 0.2s;
+}
+
+@keyframes scrollTop-Title-Down { 0% {padding: 8px;} 100% {padding: 0px;} }
+@-webkit-keyframes scrollTop-Title-Down { 0% {padding: 8px;} 100% {padding: 0px;} }
+@-moz-keyframes scrollTop-Title-Down { 0% {padding: 8px;} 100% {padding: 0px;} }
+
+.div_header_scroll #menu_header_sld li a {
+    color: #fff;
+}
+
+.div_header_scroll #header_site_name{
+    color: #fac917;
+}
+
+.div_header_scroll #header_sub_name{
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+{
+  "LiferayTheme": {
+    "deploymentStrategy": "LocalAppServer",
+    "appServerPath": "D:\\SourceTest\\intellji-workplace-liferay-gradle\\bundles\\tomcat-9.0.10",
+    "deployPath": "D:\\SourceTest\\intellji-workplace-liferay-gradle\\bundles\\deploy",
+    "url": "http://localhost:8080",
+    "appServerPathPlugin": "D:\\SourceTest\\theme\\test-theme\\.web_bundle_build",
+    "deployed": true,
+    "pluginName": "Liferay-Egov-2"
+  }
+}

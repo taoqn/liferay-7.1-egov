@@ -1,0 +1,27 @@
+/*This file allows you to override default styles in one central location for easier upgrade and maintenance.*/
+@import "partials/header";
+@import "partials/footer";
+
+$main-bg-color: #FAFAFA;
+
+body {
+  background-color: $main-bg-color;
+}
+
+#wrapper {
+  padding: 0;
+}
+
+.portlet-layout {
+  &.row {
+    margin: 0;
+
+    .col-md-12 {
+      padding: 0;
+    }
+  }
+}
+
+.portlet-body a {
+  color: $main-bg-color;
+}
