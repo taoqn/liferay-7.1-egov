@@ -1,0 +1,5 @@
+Bundle-Name: HomePortlet
+Bundle-SymbolicName: com.liferay.reactjs.home
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.reactjs.home.constants
+Web-ContextPath: /HomePortlet
